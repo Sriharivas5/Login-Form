@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     background-image: linear-gradient(rgb(127, 195, 255), rgb(216, 128, 254));
     background-size: cover;
@@ -22,13 +27,15 @@ form {
     box-shadow: inset 2px 2px 2px rgb(149, 149, 149),
         inset -2px -2px 2px rgb(149, 149, 149);
 }
-@media(max-widrh:800px){
+@media(max-width:800px){
     form{
+        width: 350px;
         height: 500px;
     }
 }
 
 button {
+    margin-top: 5px;
     border: none;
     width: 130px;
     height: 50px;
