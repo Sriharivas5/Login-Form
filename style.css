@@ -1,0 +1,92 @@
+body {
+    background-image: linear-gradient(rgb(127, 195, 255), rgb(216, 128, 254));
+    background-size: cover;
+    height: 99vh;
+}
+
+h1 {
+    padding-top: 20px;
+    font-family: sans-serif;
+}
+
+form {
+    width: 30%;
+    height: 450px;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 50px;
+    text-align: center;
+    background-color: rgb(236, 236, 236);
+    box-shadow: inset 2px 2px 2px rgb(149, 149, 149),
+        inset -2px -2px 2px rgb(149, 149, 149);
+}
+
+button {
+    border: none;
+    width: 44%;
+    height: 50px;
+    border-radius: 5px;
+}
+
+input {
+    border-radius: 4px;
+    border: 1px solid black;
+    width: 80%;
+    padding: 15px;
+    margin-top: 27px;
+    transition: all ease 300ms;
+}
+
+.LOGIN {
+    width: 89%;
+    margin: 30px 0px;
+    background-image: linear-gradient(rgb(127, 195, 255), rgb(218, 149, 247));
+    box-shadow:  2px 2px 2px rgb(104, 69, 120);
+    color: white;
+    font-size: 20px;
+
+}
+
+span {
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+
+.pass {
+    margin-bottom: 10px;
+}
+
+.Login {
+    margin: 0px;
+    background-image: linear-gradient(rgb(127, 195, 255), rgb(138, 128, 247));
+    box-shadow:  2px 2px 2px rgb(104, 69, 120);
+    color: white;
+    font-size: 19px;
+
+
+}
+
+button.Signup {
+    border: 1px solid;
+    border-left: black;
+    transition: all ease 400ms;
+
+}
+
+button:hover {
+    background-image: linear-gradient(rgb(83, 176, 253), rgb(149, 211, 242));
+    box-shadow:  2px 2px 2px rgb(104, 69, 120);
+
+}
+
+.Signup:hover {
+    background-color: rgb(212, 191, 191);
+}
+
+input:focus {
+    outline: none;
+    border: none;
+    box-shadow:   3px 3px 5px rgb(173, 173, 173),
+                 -3px -3px 5px rgb(173,173,173);
+    width: 83%;
+}
