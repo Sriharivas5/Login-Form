@@ -1,7 +1,10 @@
 body {
     background-image: linear-gradient(rgb(127, 195, 255), rgb(216, 128, 254));
     background-size: cover;
-    height: 99vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
@@ -10,20 +13,24 @@ h1 {
 }
 
 form {
-    width: 30%;
+    width: 400px;
     height: 450px;
-    margin: auto;
     border-radius: 10px;
-    margin-top: 50px;
+    margin-top: 20px;
     text-align: center;
     background-color: rgb(236, 236, 236);
     box-shadow: inset 2px 2px 2px rgb(149, 149, 149),
         inset -2px -2px 2px rgb(149, 149, 149);
 }
+@media(max-widrh:800px){
+    form{
+        height: 500px;
+    }
+}
 
 button {
     border: none;
-    width: 44%;
+    width: 130px;
     height: 50px;
     border-radius: 5px;
 }
@@ -33,23 +40,23 @@ input {
     border: 1px solid black;
     width: 80%;
     padding: 15px;
-    margin-top: 27px;
+    margin-top: 25px;
     transition: all ease 300ms;
 }
 
 .LOGIN {
     width: 89%;
-    margin: 30px 0px;
+    margin: 20px 0px;
     background-image: linear-gradient(rgb(127, 195, 255), rgb(218, 149, 247));
-    box-shadow:  2px 2px 2px rgb(104, 69, 120);
+    box-shadow: 2px 2px 2px rgb(104, 69, 120);
     color: white;
     font-size: 20px;
 
 }
 
 span {
-    margin-bottom: 30px;
-    padding-bottom: 30px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
 }
 
 .pass {
@@ -57,9 +64,8 @@ span {
 }
 
 .Login {
-    margin: 0px;
     background-image: linear-gradient(rgb(127, 195, 255), rgb(138, 128, 247));
-    box-shadow:  2px 2px 2px rgb(104, 69, 120);
+    box-shadow: 2px 2px 2px rgb(104, 69, 120);
     color: white;
     font-size: 19px;
 
@@ -75,7 +81,7 @@ button.Signup {
 
 button:hover {
     background-image: linear-gradient(rgb(83, 176, 253), rgb(149, 211, 242));
-    box-shadow:  2px 2px 2px rgb(104, 69, 120);
+    box-shadow: 2px 2px 2px rgb(104, 69, 120);
 
 }
 
@@ -86,7 +92,7 @@ button:hover {
 input:focus {
     outline: none;
     border: none;
-    box-shadow:   3px 3px 5px rgb(173, 173, 173),
-                 -3px -3px 5px rgb(173,173,173);
+    box-shadow: 3px 3px 5px rgb(173, 173, 173),
+        -3px -3px 5px rgb(173, 173, 173);
     width: 83%;
 }
