@@ -13,3 +13,4 @@ Welcome to Gradient Login, a simple yet stylish login form project built using H
 - **HTML**: Markup language for structuring the login form.
 - **CSS**: Stylesheets for designing the layout, appearance, and animations.
 ### PROJECTLINK: https://sriharivas5.github.io/Login-Form/?
+![Screenshot 2024-05-07 150617](https://github.com/Sriharivas5/Login-Form/assets/155137670/e82cde1a-d239-40be-9b20-b98621cd6c77)
